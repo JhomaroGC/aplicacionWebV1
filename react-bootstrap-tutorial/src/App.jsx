@@ -17,6 +17,7 @@ import {
 import Formulario from "./assets/components/Formulario";
 import Tarjeta from "./assets/components/Tarjeta";
 import Navegacion from "./assets/components/Navegacion";
+import Productos from "./assets/components/Productos";
 
 function App() {
   return (
@@ -24,10 +25,13 @@ function App() {
       <header className="App-header">
         <Container>
           <Navegacion />
-          <Formulario />
-          <Tarjeta />
         </Container>
       </header>
+      <>
+        <Formulario />
+        <Tarjeta />
+        <Productos/>
+      </>
     </div>
   );
 }
